@@ -9,10 +9,14 @@
   margin: 10px 0px 5px 0px;
 }
 .link a{
-  text-decoration: none;  
+  text-decoration: none;
   color: rgb(161, 161, 163);
 }
 .link a:hover{
   color: rgb(233, 233, 240);
   font-size: 22px;
+}
+
+.link a.current {
+  color: rgb(232, 232, 45);
 }

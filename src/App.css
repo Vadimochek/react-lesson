@@ -10,3 +10,9 @@
   /* grid-gap: 10px; */
 }
 
+.app-wrapper-content {
+  grid-area: c;
+  font-size: 20px;
+  background-color: cornflowerblue;
+}
+

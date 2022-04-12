@@ -1,28 +1,4 @@
 
-.avatar img {
-    width: 15%;
+.profile {
 }
 
-.panorama {
-    background-color: rgba(134, 137, 139, 0.596);
-}
-.panorama img {
-    margin: 10px 0 0px 15%;
-    border-radius: 2px;
-    width: 70%;
-
-}
-
-.my_post {
-    color: tomato;
-    margin: 30px;
-}
-
-.new_post {
-    margin-top: 10px;
-    color: green;
-}
-
-.posts {
-    margin: 10px;
-}

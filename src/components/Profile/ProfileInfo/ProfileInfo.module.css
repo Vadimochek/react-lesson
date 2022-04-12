@@ -1,0 +1,38 @@
+.profileInfo{
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    grid-template-areas:
+            "p p"
+            "a d";
+    grid-gap: 20px;
+}
+.avatar {
+    grid-area: a;
+}
+.avatar img {
+    width: 100%;
+    padding: 15px;
+}
+
+.panorama {
+    background-color: rgba(134, 137, 139, 0.596);
+    grid-area: p;
+}
+.panorama img {
+    width: 100%;
+
+}
+
+.description{
+    padding: 10px;
+    grid-area: d;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+}
+
+.personInfo{
+    font-style: italic;
+}

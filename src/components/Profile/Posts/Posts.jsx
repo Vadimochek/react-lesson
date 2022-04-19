@@ -19,10 +19,7 @@ const Posts = () => {
                 <div><button>Add</button></div>
             </div>
             <div className={css.posts}>
-                <Post text={posts[0].message} likes={posts[0].likes}/>
-                <Post text={posts[1].message} likes={posts[1].likes}/>
-                <Post text="Hey, what are you doing here?" likes="0"/>
-                <Post text="Very cool image" likes="999"/>
+                { posts.map( post => <Post text={post.message} likes={post.likes}/> )}
             </div>
         </div>
     )

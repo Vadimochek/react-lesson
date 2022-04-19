@@ -37,17 +37,10 @@ const Dialogs = (props) => {
     return (
         <div className={css.dialogs}>
             <div className={css.dialogList}>
-                <DialogItem name={dialogs[0].name} id={dialogs[0].id}/>
-                <DialogItem name={dialogs[1].name} id={dialogs[1].id}/>
-                <DialogItem name='Egor' id='3'/>
-                <DialogItem name='Lena' id='4'/>
+                { dialogs.map(data => <DialogItem name={data.name} id={data.id}/>)}
             </div>
             <div className={css.messages}>
-                <Message message={messages[0].message}/>
-                <Message message={messages[1].message}/>
-                <Message message={messages[2].message}/>
-                <Message message='Nice'/>
-                <Message message='Nice'/>
+                { messages.map( data => <Message message={data.message} />)}
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 2fr 3fr 5fr;
 }
 
 .dialogList{
@@ -16,4 +16,8 @@
 
 .message {
 
+}
+.write {
+    padding: 5px;
+    text-align: center;
 }
